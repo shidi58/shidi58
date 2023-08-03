@@ -1,0 +1,29 @@
+public class Textshape {
+        public static void main(String[] args) {
+                Cycle cycle=new Cycle();
+
+                Rect rect=new Rect();
+
+                Flower flower=new Flower();
+
+                String[] shapes={"cycle","rect","flower"}
+
+                for(Sting shape:shapes){
+                        if(shape.equals(''cycle")){
+                                cycle.drow();
+
+                        }
+
+                       else if(shape.equals(''rect")){
+                                rect.drow();
+
+                        }
+
+                        else if(shape.equals(''flower")){
+                                flower.drow();
+
+                        }
+
+                }
+
+}
