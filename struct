@@ -1,0 +1,9 @@
+IMAGE imgSunshineBall[29]; 
+struct sunshineBall { 
+    int x, y;
+    int frameIndex;
+    bool used;
+    int destY;
+    int timer = 0;
+};
+struct sunshineBall balls[10];
